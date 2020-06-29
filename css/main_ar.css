@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.section-header {
+  width: 20% !important;
+  padding: 0;
+}
+#top-icons li {
+  margin: 0 20px;
+}
+
+.header-elem {
+  display: flex;
+  align-items: center;
+}
+
+.pages,
+.top-left-icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+.icons-line {
+  margin-top: 10px;
+}
+
+#trending {
+  display: flex;
+  justify-content: space-around;
+}
+
+#border-line {
+  border-bottom: solid #dddddd 1px;
+  margin: 15px 0;
+}
+
+.card {
+  width: 220px;
+}
+
+#category {
+  background-color: #f5fcff;
+}
+#category a {
+  color: #666666;
+  margin-top: 12px;
+}
+#category h6 {
+  color: #404040;
+}
+
+#products-category a {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+#products-category a:hover {
+  color: orangered;
+}
+#side-products-category a {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 30px 5px;
+}
+
+#products .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#products-rating div {
+  float: right;
+  display: flex;
+}
+#products-rating a {
+  display: flex;
+}
+
+#products-brands {
+  margin-top: 10px;
+}
+
+#products-brands p {
+  float: right;
+  display: flex;
+}
+#products-brands a {
+  display: flex;
+}
+
+#brands,
+#brands2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-footer {
+  background-color: #2aa9c5;
+  color: white;
+  /* height: 200px; */
+}
+
+#social-icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  margin: 30px;
+}
+
+.page-footer {
+  background-color: rgb(14, 131, 185);
+}
+
+#mobile-nav-pages a {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.collapsible-body {
+  background-color: #f8fdff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.collapsible-body a {
+  color: #895050;
+  display: flex;
+  justify-content: center;
+}
+
+#fab p {
+  z-index: 2;
+  left: 18px;
+  top: 22px;
+  width: 20px;
+  height: 20px;
+  border-radius: 200px;
+}
